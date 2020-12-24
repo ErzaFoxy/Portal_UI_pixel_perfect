@@ -1,0 +1,177 @@
+@media (min-width: 768px)
+    .footer
+        &_back
+            height: 263px
+        &__soc
+            margin-top: 76px
+            display: flex
+            a
+                display: flex
+                align-items: center
+                border-left: 1px solid #414344
+                height: 63px
+                &:last-child
+                    border-right: 1px solid #414344
+        form
+            margin-top: 83px
+            img
+                top: 21px
+                left: 20px
+        &__search
+            width: 594px
+            height: 66px
+            padding-left: 84px
+            &-btn
+                top: 11px
+                right: 9px
+                padding: 13px 24px
+        &__title
+            margin-top: 62px
+        &__link
+            margin-top: 63px
+        &__map
+            &-link
+                bottom: 263px
+
+@media (min-width: 768px) and (max-width: 1150px)
+    .footer
+        .wrap
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__search
+            width: 450px
+            height: 60px
+            padding-left: 84px
+
+
+@media (max-width: 427px)
+    .footer
+        &__map
+            height: 130px
+            &-link
+                bottom: 250px
+        &_back
+            height: 250px
+            padding: 40px 0
+        &__search
+            width: 400px
+            height: 40px
+            padding-left: 45px
+            font-size: 11px !important
+            &-btn
+                top: 17px
+                right: 9px
+                padding: 6px 12px
+        &__soc
+            display: flex
+            justify-content: center
+        form
+            img
+                top: 20px
+                left: 8px
+        &__title
+            display: block
+            text-align: center
+            margin: 15px 0
+        &__link
+            display: flex
+            justify-content: center
+            margin-top: 25px
+
+
+
+.footer
+    position: relative
+    &_back
+        background: #2b2c2d
+    &__map
+        width: 100%
+        &-link
+            display: flex
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+            z-index: 1
+            a
+                background-color: #ffffff
+                border-radius: 5px
+                width: 61px
+                height: 60px
+                display: flex
+                align-items: center
+                justify-content: center
+                margin-right: 11px
+                &:last-child
+                    margin-right: 0
+                &:hover
+                    background-color: #1fa9e0
+        &-pin
+            display: inline-flex
+            background: url('../icons/pin.png') no-repeat
+            width: 32px
+            height: 48px
+            &:hover
+                background: url('../icons/pin_w.png') no-repeat
+        &-sms
+            display: inline-flex
+            background: url('../icons/sms.png') no-repeat
+            width: 43px
+            height: 34px
+            &:hover
+                background: url('../icons/sms_w.png') no-repeat
+        &-tel
+            display: inline-flex
+            background: url('../icons/phone.png') no-repeat
+            width: 40px
+            height: 40px
+            &:hover
+                background: url('../icons/phone_w.png') no-repeat
+    &__s
+        margin: 0 21px
+    &__g
+        margin: 0 19px
+    form
+        display: flex
+        align-items: center
+        position: relative
+        height: 66px
+        img
+            position: absolute
+    &__search
+        border: none
+        background: #393b3c
+        border-radius: 10px
+        color: #6d6e71
+        font-size: 14px
+        font-weight: 700
+        &-btn
+            border: none
+            position: absolute
+            background: #494c4d
+            color: #6d6e71
+            border-radius: 10px
+            font-size: 14px
+            font-weight: 700
+            cursor: pointer
+    &__title
+        color: #6d6e71
+        font-size: 13px
+        font-weight: 300
+    &__link
+        font-size: 13px
+        font-weight: 300
+        display: flex
+    ul
+        padding: 0
+        li
+            color: #6d6e71
+            margin-right: 25px
+            &:first-child
+                list-style: none
+            &:last-child
+                margin-right: 0
+        a
+            text-decoration: none
+            color: #6d6e71
+

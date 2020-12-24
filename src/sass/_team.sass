@@ -1,0 +1,142 @@
+@media (min-width: 768px)
+    .team
+        padding: 28px 0 102px 0
+        .header
+            margin-left: 95px
+            &_title
+                margin-left: 20px
+                margin-top: 50px
+        &__cards
+            margin-top: 80px
+            display: flex
+        &__card
+            margin-right: 16px
+            &:last-child
+                margin-right: 0
+        &__back
+            width: 278px
+            height: 304px
+            &-end
+                width: 278px
+        &__photo
+            margin: 43px 70px 0 71px
+
+@media (min-width: 768px) and (max-width: 1150px)
+    .team
+        padding: 28px 0 102px 0
+        &__cards
+            margin-top: 80px
+            display: flex
+            align-content: center
+            flex-direction: column
+            flex-wrap: wrap
+            max-height: 850px
+            padding: 0
+        &__card
+            margin-right: 16px
+            margin-top: 16px
+            &:last-child
+                margin-right: 0
+        &__back
+            width: 278px
+            height: 304px
+            &-end
+                width: 278px
+        &__photo
+            margin: 43px 70px 0 71px
+
+
+@media (max-width: 427px)
+    .team
+        padding: 30px 0
+        .header
+            &_title
+                margin-left: 5px !important
+                h2
+                    font-weight: 700
+                    font-size: 36px
+                    line-height: 36px
+                    margin-bottom: 10px
+                    text-align: center
+        &__cards
+            display: block
+            margin-top: 30px
+        &__card
+            display: block
+            margin: 0 auto
+        &__soc
+            width: 100%
+        &__back
+            width: 100%
+            height: 304px
+            &-end
+                width: 100%
+                margin-bottom: 40px
+        &__photo
+            display: block
+            margin: 0 auto
+            padding-top: 43px
+
+
+.team
+    &__back
+        background: #f5f5f5
+        border-radius: 5px 5px 0 0
+        &-end
+            background: #f5f5f5
+            border-radius: 0 0 5px 5px
+            height: 27px
+    &__title
+        display: block
+        color: #6d6e71
+        font-size: 24px
+        font-weight: 700
+        text-align: center
+        margin-top: 22px
+        span
+            display: block
+            font-size: 17px
+            font-weight: 300
+            margin-top: 2px
+    &__soc
+        display: flex
+        justify-content: center
+        margin-top: 21px
+        margin-bottom: 20px
+    &__fb
+        display: inline-flex
+        background: url('../icons/fb.png') no-repeat
+        width: 21px
+        height: 21px
+        margin-right: 29px
+        transition: all 0.7s
+        &:hover
+            background: url('../icons/fb-h.png') no-repeat
+    &__tw
+        display: inline-flex
+        background: url('../icons/tw.png') no-repeat
+        width: 21px
+        height: 18px
+        margin-right: 29px
+        margin-top: 2px
+        transition: all 0.7s
+        &:hover
+            background: url('../icons/tw-h.png') no-repeat
+    &__inst
+        display: inline-flex
+        background: url('../icons/inst.png') no-repeat
+        width: 22px
+        height: 21px
+        margin-right: 29px
+        transition: all 0.7s
+        &:hover
+            background: url('../icons/inst-h.png') no-repeat
+    &__lin
+        display: inline-flex
+        background: url('../icons/linkedin.png') no-repeat
+        width: 22px
+        height: 21px
+        transition: all 0.7s
+        &:hover
+            background: url('../icons/linkedin_c.png') no-repeat
+

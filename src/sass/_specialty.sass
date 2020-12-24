@@ -1,0 +1,63 @@
+@media (min-width: 768px)
+    .specialty
+        &__row
+            display: flex
+            flex-direction: row
+            img
+                display: inline-flex
+                align-self: flex-start
+                margin-right: 30px
+            &:first-child
+                margin-bottom: 93px
+            &:nth-child(2)
+                margin-bottom: 95px
+        &__descr
+            width: 383px
+        &__subtitle_1
+            margin-top: 10px
+        &__subtitle_2
+            margin-top: 13px
+        &__subtitle_3
+            margin-top: 13px
+        h3
+            margin-bottom: 31px
+        &_img
+            margin-right: 17px !important
+            margin-left: -15px
+        .header
+            margin-bottom: 94px
+
+@media (min-width: 768px) and (max-width: 1150px)
+    .specialty
+        &__row
+            justify-content: center
+        &__col
+            &:last-child
+                margin-top: 93px
+
+@media (max-width: 427px)
+    .specialty
+        &__descr
+            h3
+                text-align: center
+                margin-bottom: 20px
+                font-size: 22px !important
+        &__row
+            img
+                display: block
+                margin: 30px auto
+
+
+
+
+.specialty
+    &__descr
+        color: #6d6e71
+        text-align: justify
+        font-size: 16px
+        font-weight: 300
+        line-height: 24px
+        h3
+            font-size: 24px
+            font-weight: 700
+            line-height: 0

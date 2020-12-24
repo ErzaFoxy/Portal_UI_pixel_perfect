@@ -1,0 +1,154 @@
+@media (min-width: 768px)
+    .projects
+        background: url('../img/back.png') no-repeat
+        margin-top: 92px
+        padding-top: 60px
+        padding-bottom: 90px
+        .header_title
+            margin-top: 34px
+        &__tabs
+            margin-top: 78px
+            margin-bottom: 50px
+            justify-content: center
+            align-items: center
+        &__tab
+            margin: 0 7px
+            padding-top: 10px
+            padding-bottom: 10px
+            &_1
+                padding-left: 50px
+                padding-right: 50px
+            &_2
+                padding-left: 30px
+                padding-right: 30px
+            &_3
+                padding-left: 40px
+                padding-right: 40px
+            &_4
+                padding-left: 20px
+                padding-right: 20px
+            &_5
+                padding-left: 27px
+                padding-right: 27px
+        &__row
+            display: flex
+            flex-direction: row
+        &__card
+            height: 284px
+            width: 279px
+            margin: 0 16px 18px 0
+            &:last-child
+                margin: 0 0 18px 0
+            img
+                position: absolute
+                top: 16px
+                right: 0
+                bottom: 0
+                left: 13px
+                z-index: 0
+        &__link_wrap
+            position: absolute
+            top: 242px
+            right: 0
+            bottom: 0
+            left: 0
+            z-index: 1
+
+@media (min-width: 768px) and (max-width: 1150px)
+    .projects
+        background: #efefef
+        &__row
+            display: flex
+            flex-direction: column
+            align-content: center
+            flex-wrap: wrap
+            max-height: 700px
+        &__tab
+            &_1
+                padding-left: 40px
+                padding-right: 40px
+
+
+@media (max-width: 427px)
+    .projects
+        background: #efefef
+        margin-top: 50px
+        padding: 30px 0
+        &__tabs
+            margin-top: 30px
+            flex-direction: column
+            flex-wrap: wrap
+            max-height: 220px
+        &__tab
+            text-align: center
+            padding: 13px 10px
+            font-size: 17px !important
+            line-height: 18px
+            margin: 0 5px
+            margin-bottom: 20px
+        &__card
+            height: 320px
+            width: 100%
+            margin: 0 16px 18px 0
+            padding-top: 55px
+        &__link_wrap
+            position: absolute
+            top: 280px
+            right: 0
+            bottom: 0
+            left: 0
+            z-index: 1
+
+
+
+.projects
+    &__tabs
+        list-style: none
+        padding-left: 0
+        display: flex
+        li
+            cursor: pointer
+    &__tab
+        border: 2px solid #cecece
+        border-radius: 5px
+        color: #bbbbbb
+        font-size: 15px
+        font-weight: 700
+        transition: all 0.7s
+        &:hover
+            border: 2px solid #ffffff
+            color: #6d6e71
+            background: #ffffff
+        &_active
+            border: 2px solid #ffffff !important
+            color: #6d6e71
+            background: #ffffff !important
+    &__card
+        background: #ffffff
+        border-radius: 5px
+        text-align: center
+        position: relative
+    &__wrap
+        display: none
+        justify-content: center
+        flex-wrap: wrap
+        &_active
+            display: flex
+    &__link
+        display: inline-flex
+        background: url('../icons/link_23.png')
+        width: 23px
+        height: 23px
+        transition: all 0.7s
+        margin-right: 101px
+        &:hover
+            background: url('../icons/link_c_23.png')
+    &__plus
+        display: inline-flex
+        background: url('../icons/plus_24.png')
+        width: 24px
+        height: 24px
+        transition: all 0.7s
+        &:hover
+            background: url('../icons/plus_c_24.png')
+

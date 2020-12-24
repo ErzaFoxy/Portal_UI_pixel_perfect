@@ -1,0 +1,213 @@
+@media (min-width: 768px)
+    .main-img
+        height: 970px
+        &__list
+            height: 85px
+            a
+                line-height: 85px
+            li
+                &:last-child
+                    width: 105px
+        &__item-1
+            margin-left: 16px
+            margin-right: 20px
+        &__item-2
+            margin-left: 20px
+            margin-right: 20px
+        &__item-3
+            margin-left: 25px
+            margin-right: 25px
+        &__item-4
+            margin-left: 26px
+            margin-right: 26px
+        &__item-5
+            margin-left: 26px
+            margin-right: 26px
+        &__item-6
+            margin-left: 27px
+        &__header
+            top: -164px
+            right: 0
+            left: 0
+            bottom: 0
+        &__img
+            top: 85px
+            right: 0
+            left: 0
+            bottom: 0
+            height: 886px
+        &__carousel
+            padding-top: 520px
+            .carousel__inner
+                width: 644px
+                margin-right: 111px
+        .slick-prev
+            width: 111px
+            height: 241px
+            position: absolute
+            top: 0
+            right: -111px
+            z-index: 5
+        &__icon
+            &_active
+                top: 77px
+                left: 50%
+        &__search
+            margin-right: 19px
+
+
+@media (min-width: 768px) and (max-width: 1180px)
+    .main-img
+        height: 800px
+        .container
+            padding: 0 !important
+        &__list
+            width: 100%
+            border-bottom: 1px solid #eceef4
+            justify-content: center
+        &__img
+            height: 600px
+        &__header
+            width: 500px
+        &__carousel
+            margin-top: 370px !important
+        form
+            justify-content: center
+            margin: 15px 0
+        &__img
+            top: 145px
+
+@media (max-width: 427px)
+    .main-img
+        height: 490px
+        &__list
+            border-bottom: 1px solid #eceef4
+            flex-direction: column
+            align-content: center
+            flex-wrap: wrap
+            max-height: 150px
+            li
+                text-align: center
+                display: flex
+                align-items: center
+                width: 50%
+                padding: 15px 18px
+                border-bottom: 1px solid #eceef4
+                &:nth-child(3)
+                    border-bottom: none
+        &_border-none
+            border-right: none !important
+        &__icon
+            &_active
+                top: 40px
+                left: 18%
+        form
+            justify-content: center
+            margin: 15px 0
+        &__carousel
+            margin-top: 130px
+            img
+                width: 140px
+                height: 105px
+        .carousel__inner
+            width: 280px
+            margin-right: 40px
+        .slick-prev
+            width: 40px
+            height: 105px
+            position: absolute
+            top: 0
+            right: -40px
+            z-index: 5
+            img
+                width: 23px
+                height: 40px
+        &__back
+            &_next
+                right: 7px !important
+        &__header
+            width: 200px
+            top: 60px
+            right: 0
+            left: 60px
+            bottom: 0
+        .container
+            padding: 0 !important
+
+
+
+
+
+.main-img
+    position: relative
+    &__list
+        list-style: none
+        padding: 0
+        display: flex
+        li
+            border-right: 1px solid #eceef4
+            position: relative
+            &:last-child
+                border: none
+        a
+            text-decoration: none
+            color: #6d6e71
+            font-weight: 700
+            font-size: 13px
+            transition: all 0.5s
+            &:hover
+                color: #1faae2
+    &__img
+        width: 100%
+        position: absolute
+        z-index: -1
+    &__header
+        margin: auto
+        position: absolute
+        z-index: 0
+    &__carousel
+        display: flex
+        justify-content: flex-end
+        position: relative
+    .slick-none
+        display: none !important
+    .slick-prev
+        border: none
+        outline: none
+        cursor: pointer
+        img
+            &:hover
+                opacity: 0.7
+    form
+        display: flex
+        align-items: center
+    &__search
+        border: none
+        background: #ffffff
+        font-size: 15px
+        width: 179px
+        &-btn
+            background: url('../icons/search.png') no-repeat
+            background-color: #ffffff
+            border: none
+            width: 25px
+            height: 25px
+            margin-right: 14px
+            cursor: pointer
+    &__icon
+        position: absolute
+        display: none
+        &_active
+            display: block
+            transform: translateX(-50%)
+    &__active
+        a
+            color: #1faae2 !important
+    &__back
+        position: relative
+        display: flex
+        &_next
+            position: absolute
+            top: 50%
+            right: 42px
+            transform: translateY(-50%)
